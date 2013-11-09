@@ -1,0 +1,6 @@
+echo -e "\n"
+echo "4chan /g/'s FTP server"
+echo username: install
+echo password: gen2
+echo -e "\n"
+ftp -p 91.121.3.44 21

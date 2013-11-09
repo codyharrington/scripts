@@ -1,0 +1,2 @@
+du ~ -c -h | grep '^[0-9.]*M' | sort -g --reverse >$PWD/sizelisting && gedit $PWD/sizelisting 
+

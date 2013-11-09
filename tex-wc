@@ -1,0 +1,7 @@
+export newfile=$(echo $1 | sed 's/ /_/g')
+cp "$1" "$newfile"
+xmessage -timeout 2 "$1: $(untex -o -e -i $newfile | wc -w) words"
+if [ "$newfile" != "$1" ] 
+then
+	rm $newfile
+fi

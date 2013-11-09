@@ -1,0 +1,6 @@
+echo "Resetting directory permissions..."
+
+# Hide directories and such from prying eyes
+chmod 700 ~ -R
+
+echo "Directory permissions reset"

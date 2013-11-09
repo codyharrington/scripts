@@ -1,0 +1,12 @@
+if [ "$1" = "on" ]; 
+	then
+		chmod g+rx ~/public_html -R
+		chmod g-w ~/public_html -R
+elif [ "$1" = "off" ]
+	then
+ 		chmod og-rwx ~/public_html -R
+else
+	echo "Usage: webpage (on | off)"
+fi
+
+echo "Note: permissions make take some time to change"

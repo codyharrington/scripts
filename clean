@@ -1,0 +1,10 @@
+rm "$PWD"/*.o
+rm "$PWD"/core.*
+rm "$PWD"/a.out
+rm "$PWD"/*~
+rm ~/.bash_history*
+rm "$PWD"/*.pyc
+rm "$PWD"/*.swp
+rm "$PWD"/vgcore.*
+rm "$PWD"/*.aux
+rm "$PWD"/*.synctex.gz

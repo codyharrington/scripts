@@ -1,0 +1,1 @@
+rdesktop 192.168.1.23 -0 -u Administrator -r sound:remote -x lan -a 16

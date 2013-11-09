@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -pedantic -o $1 $1.c -lm -lGLU -lglut

@@ -1,0 +1,11 @@
+echo "Resetting webserver permissions..."
+
+# Fix the webserver
+chmod g+rx ~/public_html -R
+setfacl -R -m d:g::r-x,g::r-x,d:u:studwebdemon:r-x,u:studwebdemon:r-x,d:o::---,o::--- ~/public_html
+chmod g-w ~/public_html -R
+
+# Add permissions to home directory
+setfacl -m d:g::r-x,g::r-x,d:u:studwebdemon:r-x,u:studwebdemon:r-x,d:o::---,o::--- ~
+
+echo "Webserver permissions reset."
