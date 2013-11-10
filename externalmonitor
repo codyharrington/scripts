@@ -1,0 +1,2 @@
+xrandr --output LVDS --mode $1
+xrandr --output DFP1 --mode $1
