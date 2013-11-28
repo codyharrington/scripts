@@ -1,0 +1,2 @@
+virtualbox --startvm "Debian" &
+rxvt-unicode -sh 87 -bg #000000 -fg #ffffff -c "node ~/work/git/apps/scloud-manager/nodejs/app.js" &

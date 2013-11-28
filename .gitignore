@@ -1,3 +1,8 @@
 *ssh
-.*dwm.*
+dwm*
+node
+nosetests*
+virtualenv*
+npm
+
 

@@ -1,1 +1,1 @@
-ls -al ~/bin/scripts | more
+ls -al $SCRIPTS | less

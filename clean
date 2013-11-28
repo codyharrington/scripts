@@ -8,3 +8,4 @@ rm "$PWD"/*.swp
 rm "$PWD"/vgcore.*
 rm "$PWD"/*.aux
 rm "$PWD"/*.synctex.gz
+rm "$PWD"/.goutputstream*
