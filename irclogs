@@ -1,1 +1,1 @@
-egrep "^...-..-.. ..:..:..  .?$2" ~/.weechat/logs/$1 | cut -f3- 
+cat /home/$USER/.weechat/logs/$1 | sed 's/\t/ /g' | egrep "^....-..-.. ..:..:.. .?$2" | cut -f4- -d ' '
