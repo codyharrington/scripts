@@ -1,2 +1,2 @@
 # Allows for extra gcc build flags if needed
-gcc -ansi -Wall -Wextra -Werror -pedantic -pedantic-errors -g -o $1 $1.c $2
+gcc -std=c99 -Wall -Wextra -pedantic -g -o $1 $1.c $2
